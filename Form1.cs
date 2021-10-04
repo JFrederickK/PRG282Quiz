@@ -17,5 +17,9 @@ namespace PRG282Quiz
             InitializeComponent();
         }
 
+        private void BtnRead_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hallo world!!");
+        }
     }
 }

@@ -49,6 +49,7 @@
             this.BtnRead.TabIndex = 1;
             this.BtnRead.Text = "Read";
             this.BtnRead.UseVisualStyleBackColor = true;
+            this.BtnRead.Click += new System.EventHandler(this.BtnRead_Click);
             // 
             // Form1
             // 
